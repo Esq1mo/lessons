@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table htlm</title>
+  <style>
+    .text-center {
+      text-align: center;
+    }
+    table,
+    table * {
+      border: 1px solid #000;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <main>
+  <h1 class="text-center">Основные теги HTML</h1>
+    <table>
+      <caption>
+        1&#41; СТРУКТУРА Web-страницы
+      </caption>
+      <thead>
+      <tr>
+        <td>&#60;html&#62; &#60;/html&#62;</td>
+        <td>Начало и конец страницы</td>
+        <td></td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>&#60;head&#62; &#60;/head&#62;</td>
+        <td>Описание страницы, содержащее различную информацию не отображаемую в теле документа.Здесь распологается тег имени страницы и теги для поисковых машин</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&#60;title&#62; &#60;/title&#62;</td>
+        <td>Имя страницы</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&#60;body&#62; &#60;/body&#62;</td>
+        <td>Определяет видимую чать страницы</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2" class="text-center">2&#41; АТРИБУТЫ ТЕЛА ДОКУМЕНТА</td>
+        <td>Значения атрибутов</td>
+      </tr>
+      <tr>
+        <td>&#60;body background="URL"&#62;</td>
+        <td>Фоновое изображение</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&#60;body bgcolor="#RRGGBB"&#62;</td>
+        <td>Цвет фона документа, используя значение цвета в виде RRGGBB - пример: 000000 - черный цвет</td>
+        <td rowspan="5">red, blue, #FF0000 и др.</td>
+      </tr>
+      <tr>
+        <td>&#60;body text = "#RRGGBB"&#62;</td>
+        <td>Цвет текста документа, используя значение ццвета в виде RRGGBB - пример: 00FF00 - зелёный цвет</td>
+      </tr>
+      <tr>
+        <td>&#60;body link="#RRGGBB"&#62;</td>
+        <td>Устанавливает цвет гиперссылок, используя значение цвета в виде RRGGBB - пример: 00FF00 - зелёный цвет</td>
+      </tr>
+      <tr>
+        <td>&#60;body vlink="#RRGGBB"&#62;</td>
+        <td>Устанавливает цвет гиперссылок на которых вы уже побывали, используя значение цвета в виде RRGGBB - пример: 333333 - серый цвет</td>
+      </tr>
+      <tr>
+        <td>&#60;body alink="#RRGGBB"&#62;</td>
+        <td>Устанавливает цвет гиперссылок при нажатии</td>
+      </tr>
+      <tr>
+        <td colspan="2" class="text-center">3&#41; ТЕГИ ДЛЯ ФОРМАТИРОВАНИЯ ТЕКСТА</td>
+        <td>Значения атрибутов</td>
+      </tr>
+        <tr>
+          <td>&#60;h?&#62; &#60;h?&#62;</td>
+          <td>Создает заголовок уровни от 1 до 6</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>&#60;h? align=*&#62; &#60;h?&#62;</td>
+          <td>Заголовок с выравниванием</td>
+          <td>left, right, center</td>
+        </tr>
+        <tr>
+          <td>&#60;p&#62; &#60;p&#62;</td>
+          <td>Создаёт новый параграф</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>&#60;p align=*&#62; &#60;p&#62;</td>
+          <td>Выравнивает параграф относительно одной из сторон документа</td>
+          <td>left, right, center, justify</td>
+        </tr>
+        <tr>
+          <td>&#60;br&#62;</td>
+          <td>Вставляет перевод строки</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>&#60;center&#62; &#60;center&#62;</td>
+          <td>Выравнивание по центру</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>&#60;div align=*&#62;</td>
+          <td>Форматирование больших блоков текста страницы, также используется в таблицах стилей</td>
+          <td>left, right, center, justify</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2" class="text-center">4&#41; ТЕГИ ДЛЯ ФОРМАТИРОВАНИЯ ШРИФТА</td>
+          <td>Значиения атрибутов</td>
+        </tr>
+      <tr>
+        <td>&#60;b&#62; &#60;/b&#62;</td>
+        <td>
+          <b>Жирный
+            </b>
+          </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&#60;i&#62; &#60;/i&#62;</td>
+        <td>
+          <i>Курсив
+            </i>
+          </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&#60;u&#62; &#60;/u&#62;</td>
+        <td>
+          <u>Подчеркнутый
+            </u>
+          </td>
+          <td></td>
+      </tr>
+      <tr>
+        <td>&#60;sup&#62; &#60;/sup&#62;</td>
+        <td>Верхний индекс - пример а<sup>2</sup></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&#60;sub&#62; &#60;/sub&#62;</td>
+        <td>Нижний индекс - пример а<sub>2</sub></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&#60;font size=?&#62; &#60;/font&#62;</td>
+        <td>Размер шрифта в пределах от 1 до 7</td>
+        <td></td>
+      </tr>
+      </tfoot>
+    </table>
+    </main>
+</html>
