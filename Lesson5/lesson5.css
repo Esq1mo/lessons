@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+.title__name {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    margin-left: 32px;
+    color: red;
+}
+
+.title__colored {
+    background-color: #fff;
+    color: blue;
+}
+
+.title__text {
+    display: flex;
+    align-items: center;
+    width: 773px;
+    margin-left: 223px;
+    font-size: 26px;
+    color: #222;
+}
+
+.cards {
+    display: flex;
+    max-width: 1220;
+}
+
+
+.cards__one, .cards__two, .cards__three {
+    width: 390px;
+    margin: 12.5px;
+    border: 1px solid #d4d4d4;
+}
+
+
+.cards__img-one {
+    padding: 3.125em 9.68em 1.25em 9.68em;
+}
+
+
+.cards__title-one {
+    text-align: center;
+    color: #2753A2;
+    font-size: 1.62em;
+}
+
+
+.cards__text-one {
+    padding: .625em 1.25em 5.375em 1.25em;
+    font: 500;
+    font-size: 1.25em;
+}
+
+
+.cards__img-two {
+    padding: 3.125rem 9.68rem 1.25rem 9.68rem;
+}
+
+
+.cards__title-two {
+    text-align: center;
+    color: #2753A2;
+    width: 205;
+    font: 500;
+    font-size: 1.62rem;
+
+}
+
+.cards__text-two {
+    padding: 0.625rem 1.25rem 5.375rem;
+    font: 500;
+    font-size: 20px;
+}
+
+.cards__img-three {
+    padding: 50px 158px 20px 157px;
+}
+
+.cards__title-three {
+    text-align: center;
+    color: #2753A2;
+    width: 205;
+    font: 500;
+    font-size: 26px;
+}
+
+.cards__text-three {
+    padding: 10px 20px 60px;
+    font: 500;
+    font-size: 20px;
+}
+
