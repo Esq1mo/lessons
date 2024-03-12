@@ -1,0 +1,101 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 2px;
+}
+
+
+body {
+    color: #000;
+    font: normal 400 14px/1.3 "montserrat", "Tahoma", sans-serif;
+}
+
+
+.title__name {
+    align-items: center;
+    font-size: 40px;
+    margin-left: 32px;
+    color: red;
+}
+
+.title__colored {
+    background-color: #fff;
+    color: blue;
+}
+
+.title__text {
+    text-align: center;
+    width: 773px;
+    margin-left: 223px;
+    font-size: 26px;
+    color: #222;
+}
+
+.cards {
+    width: 100%;
+    max-width: 1220px;
+    display: flex;
+}
+
+
+.cards__one, .cards__two, .cards__three {
+    width: 390px;
+    margin: 12.5px;
+    border: 1px solid #d4d4d4;
+    padding: 50px 20px 30px;
+}
+
+
+.cards__img-one, .cards__img-two, .cards__img-three {
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.cards__title-one {
+    text-align: center;
+    margin-top: 20px;
+    color: #2753A2;
+    font-size: 1.8571em;
+}
+
+
+.cards__text-one, .cards__text-two, .cards__text-three {
+    margin-top: 10px;
+    font-size: 1.42em;
+    text-align: center;
+}
+
+.cards__title-two {
+    text-align: center;
+    margin-top: 20px;
+    color: #2753A2;
+    font-size: 13rem;
+}
+
+.cards__title-three {
+    text-align: center;
+    margin-top: 20px;
+    color: #2753A2;
+    font-size: 13rem;
+}
+
+.cards__text-two {
+    margin-top: 10px;
+    font-size: 10rem;
+    text-align: center;
+}
+
+.cards__text-three {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
