@@ -104,8 +104,3 @@ ul {
     cursor: pointer;
 }
 
-@media (max-width: 1250px) {
-    .image {
-        flex-wrap: wrap;
-    }
-}
