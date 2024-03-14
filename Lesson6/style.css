@@ -25,9 +25,9 @@ ul {
 
 .container {
     display: flex;
+    max-width: 100%;
+    padding: 100px calc(50% - 650px);
     justify-content: space-between;
-    max-width: 1280px;
-    height: 668px;
 }
 
 .image {
@@ -102,4 +102,10 @@ ul {
 .button:hover {
     background-color: hsl(140, 43%, 54%);
     cursor: pointer;
+}
+
+@media (max-width: 1250px) {
+    .image {
+        flex-wrap: wrap;
+    }
 }
