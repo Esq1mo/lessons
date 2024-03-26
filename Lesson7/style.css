@@ -61,6 +61,10 @@ ul {
     font-size: 22px;
 }
 
+.cards__text {
+    font-size: 14px;
+}
+
 .cards__one-bot, .cards__two-bot {
     display: flex;
     justify-content: space-around;
