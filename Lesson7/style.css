@@ -1,0 +1,80 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 2px;
+}
+
+
+body {
+    background-color:#F2F8F6;
+    color: #000;
+    font: normal 400 14px/1.3 "Roboto", "Tahoma", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.cards {
+    margin: auto;
+    display: flex;
+    max-width: 920px;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 40px;
+    
+}
+
+.cards__one, .cards__two, .cards__three, .cards__four {
+    align-content: center;
+    border-radius: 10px;
+    width: 440px;
+    padding: 20px 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+.button {
+    width: 200px;
+    height: 70px;
+    background-color: #E31E24;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.cards__price, .cards__title {
+    font-size: 22px;
+}
+
+.cards__text {
+    font-size: 14px;
+}
+
+.cards__one-bot, .cards__two-bot {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: .3s ease;
+    cursor: pointer;
+}
