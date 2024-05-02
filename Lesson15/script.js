@@ -21,7 +21,6 @@ else if (!validCheckbox.checked) {
     else {
         alert('Форма отправлена');
     }
-})
 if (!result) {
     event.preventDefault();
-     }
+     }});
