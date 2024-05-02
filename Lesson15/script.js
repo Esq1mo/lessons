@@ -1,7 +1,6 @@
 const validName = document.getElementById('name'),
 validPhone = document.getElementById('phone'),
  validCheckbox = document.getElementById('check'),
-  button = document.getElementById('button'),
    form = document.getElementById('form');
 
 form.addEventListener('submit', function(event) {
@@ -10,8 +9,8 @@ if (validName.value === '') {
 alert('Поле имя должно быть заполнено');
 result = false;
 }
-else if (validPhone.value === '') {
-    alert('Поле телефон должно быть заполнено');
+else if (validPhone.value === '' || !/^\d+$/.test(validPhone.value)) {
+    alert('Поле телефон должно быть заполнено и содержать только цифры');
     result = false;
 }
 else if (!validCheckbox.checked) {
