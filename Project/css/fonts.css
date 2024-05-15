@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Inter";
+    src: local("Inter Regular"), local("Inter-Regular"),
+    url("../fonts/Inter/Inter-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+@font-face {
+    font-family: "Inter";
+    src: local("Inter Medium"), local("Inter-Meduim"),
+    url("../fonts/Inter/Inter-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+@font-face {
+    font-family: "Inter";
+    src: local("Inter Bold"), local("Inter-Bold"),
+    url("../fonts/Inter/Inter-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+@font-face {
+    font-family: "DM_Serif_Display";
+    src: local("DM_Serif_Display Regular"), local("DM_Serif_Display-Regular"),
+    url("../fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
